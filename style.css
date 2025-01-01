@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.main{
+    height: auto;
+    width: 100%;
+}
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+    
+
+.top{
+    height: 100vh;
+    width: 100%;
+    
+    background-image:linear-gradient(7deg, rgba(0, 0, 0, 0) 5.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%), url(images/background.jpg );
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    position: absolute;
+    padding:0;
+    float: left; 
+    background-color: blue;
+    
+}
+.logo{
+    padding: 0 108px;
+    
+}
+.logo img{
+    height: 40px;
+    width: 125px;
+    
+    
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 50px;
+    padding: 20px 0;
+   
+    
+}
+.nav-button{
+    padding-right:110px;
+    
+}
+
+.nav-button button{
+    
+    color: white;
+    outline: 10px;
+    
+    margin-left: 5px;
+
+
+}
+.nav-button button svg{
+    width: 15px;
+    
+}
+
+.lang-btn{
+    height: 30px;
+    width: 120px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0.5px solid grey;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size:18px;
+}
+.sign-in{
+    height: 30px;
+    width: 90px;
+    background: rgb(229, 9, 20);
+    border-radius: 3px;
+    border: 1px grey;
+    outline: 10px;
+    color: white;
+    font-size:15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.sign-in:hover{
+    background: rgb(212, 9, 19);
+
+}
+.nav-button img{
+   
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    
+}
+.inside-langbtn{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.center{
+    
+    
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left:50%; 
+    text-align: center;
+
+}
+.center h1{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.center p{
+    font-size: 1rem;
+}
+.submit{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 75%;
+    left: 50%;
+    margin-top: 5px;
+}
+.submit form label{
+    position: absolute;
+    padding: 18px 18px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    
+
+}
+.submit p{
+    font-size:15px ;
+
+}
+.mail-input{
+    height: 50px;
+    width: 340px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background-color: transparent;
+    
+}
+.submit form{
+    margin-top: 20px ;
+    
+}
+.submit-btn{
+ 
+   
+   background-color:rgb(229, 9, 20) ;
+   color: white;
+   border: 1px solid grey;
+   border-radius: 4px;
+   height: 52px;
+   width: 135px;
+   cursor: pointer;
+}
+.submit .submit-btn:hover{
+    background: rgb(212, 9, 19) ;
+    
+}
+.middle{
+    float: left;
+    height:auto;
+    width: 100%;
+    
+    padding:0 0;
+    margin-top: 100vh;
+    margin-left: 5vh;
+}
+
+.middle h3{
+    color: azure;
+    padding: 0 0 ;
+    
+    position: relative;
+    position: absolute;
+}
+
+.curve-box{
+
+    height: 10%;
+    top: 0;
+    width: 100%;
+    border-image-slice: 1;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    box-sizing: border-box;
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items:center ;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    
+    border-style: solid;
+    border-color: transparent;
+    border-top-left-radius:87% 32% ;
+    border-top-right-radius: 87% 36%;
+    border-image: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgb(255 3 15), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    border-image-slice: 1;
+    padding: 20px;
+    
+
+
+    
+}
+
+.shape {
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+.shape::before {
+    
+    position: absolute;
+     
+  }
+.trending-box{
+    padding: 20px 70px;
+    
+
+}
+.trending-box h2{
+    font-weight: 100;
+
+
+}
+.trendingbox-btn{
+    padding: 0px 60px;
+    display: inline;
+    position: absolute;
+    
+   
+
+}
+.trendingbox-btn option{
+    color: rgb(11, 11, 11);
+    
+
+}
+.trendingbox-btn select{
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 10px;
+    display: inline;
+    
+   
+}
+.movies{
+    padding: 0px 160px;
+    padding-left: 65px;
+    padding-top: 65px;
+
+
+}
+.movies a{
+    text-decoration: none;
+    background: #5e5d5d4f;
+    border-radius: 7px;
+    color: #c0bbbb7b;
+    padding: 10vh 0.5vw;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+    
+
+}
+.left-arrow{
+    /* margin-left: 32px; */
+    position: absolute;
+    display: flex;
+}
+.right-arrow{
+    margin-left: 1010px;
+   
+}
+.movie-title{
+    width: 105%;
+    padding-left: 25px;
+    display: flex;
+    overflow:hidden;
+    gap:50px;
+    margin-left: 0px;
+    height: 220px;
+   
+    
+}
+.movie-title img{
+    border-width: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 200px;
+    transition-delay: 0s;
+}
+.movie-title .filim p{
+    -webkit-text-stroke: 2px rgb(230, 224, 224);
+    margin-top: -110px;
+    font-size: 500%;
+    font-stretch: expanded;
+    font-weight: 900;
+    color: black;
+    margin-left: -25px;
+    position: static;
+    
+}
+.join-reason{
+    margin-top: 70px;
+}
+.sizes{
+    height: 225px;
+    width: 500px;
+
+}
+.join-reason{
+    height: 400px;
+    width: 110%;
+    
+    
+}
+.join-reason .heading{
+    margin-left: 10px;
+}
+.join-reason img{
+    
+    align-self: flex-end;
+    height:60px;
+    width:65px;
+    margin-left:400px;
+    margin-top: -65px;
+}
+.join-reason .images-inside{
+    display: flex;
+    justify-content:space-between ;
+    
+}
+.join-reason .enjoy{
+    
+    background:linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+
+}
+.join-reason .download{
+    
+    background:linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+
+
+
+}
+.join-reason .download p{
+    margin-top: 25px;
+}
+.join-reason .watch{
+    
+    background:linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.join-reason .create{
+    
+    background:linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+
+
+
+}
+.columns p{
+    padding: 85px 10px;
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255,0.7);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.columns h3{
+    padding: 25px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.columns{
+    padding: 30px 0;
+    margin-left: -10px;
+}
+
+.bottom-start{
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: flex;
+    position: relative;
+    margin-top: 300px;
+
+}
+.bottom-start h2{
+    padding: 0 65px;
+    font-weight: 200;
+}
+.faq{
+    margin-top: 0px ;
+    margin-left: 20px;
+}
+.fa-question{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 60px;
+    margin-top: 10px;
+    height: 100px;
+}
+.fa-question li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+.fa-question li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    cursor:pointer;
+    background: rgb(51, 51, 51);
+    position: relative;
+}
+.fa-question label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    
+
+}
+.fa-question input{
+    display: none;
+}
+.fa-question .content{
+    background:rgb(51, 51, 51);
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0px;
+    overflow: hidden;
+}
+.membership-restart{
+       
+        position: absolute;
+        padding: 600px 220px;
+        margin-left: 30px;
+        float: left;
+    
+}
+.membership-restart p{
+    margin-left: 100px;
+    font-size:15px ;
+
+}
+.membership-restart .mail-input{
+    height:55px;
+    width: 500px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background-color: transparent;
+    font-size: 1rem;
+}
+.membership-restart form{
+    margin-top: 20px ;
+    
+}
+
+
+.membership-restart .starter-btn{
+   background-color:rgb(229, 9, 20);
+   color: white;
+   font-size: 16px;
+   font-weight: 550;
+   border : 1px solid grey;
+   border-radius: 4px;
+   height: 55px;
+   width: 150px;
+   
+}
+
+.membership-restart .starter-btn:hover{
+    background-color: white;
+}
+.membership-restart form label{
+    position: absolute;
+    padding: 18px 18px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+   
+}
+
+.footer{
+    position: absolute;
+    float: left;
+    padding: 760px 90px;
+    height: 500px;
+}
+.footer .footer-question{
+    display: flex;
+    position: relative;
+    color:rgba(255, 255, 255,0.7);
+}
+.footer .footer-question a{
+    color:rgba(255, 255, 255,0.7) ;
+    margin-left: 5px;
+}
+.links{
+    
+    
+    margin-top: 30px;
+}
+.col-style{
+        width:150px;
+        color: rgba(255, 255, 255,0.7);
+        
+
+        
+}
+.col-one{ 
+
+    float: left;
+}
+
+.col-two{
+    float: left;
+    margin-left: 200px;
+}
+.col-three{
+    float: left;
+    margin-left:200px;
+}
+.col-four{
+    float: left;
+    margin-left: 200px;
+    
+
+}
+.links-ulist li{
+    margin-top: 10px;
+   
+}
+.links-ulist li a{
+    font-size: 15px;
+}
+.links-ulist{
+    list-style: none;
+}
+.links-ulist a{
+    font-size: medium;
+    color:rgba(255, 255, 255,0.7) ;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.footer-language{
+    
+    position: absolute;
+    margin-top: 202vh;
+    padding: 0 85px;
+}
+.footer-language select{
+    min-width: 120px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    
+}
+.footer-language option{
+    color: black;
+}
+
+.footer-language p{
+    margin-top: 35px;
+    color:rgba(255, 255, 255,0.7) ;
+
+}
+.footer-language button{
+    height: 30px;
+    width: 120px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0.5px solid grey;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size:15px;
+    font-weight: 500;
+
+}
+.footer-language button svg{
+    width: 15px;
+    padding-right: 5px;
+    
+}
+.footer-language button img{
+
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+
